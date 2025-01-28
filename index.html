@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="live-score-container">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>SCORE</td>
+                        <td id="live-score">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <table class="scoreboard">
+            <caption>Scoreboard</caption>
+            <tbody>
+                <tr>
+                    <td>Easy</td>
+                    <td id="easy-high-score">0</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td id="medium-high-score">0</td>
+                </tr>
+                <tr>
+                    <td>Hard</td>
+                    <td id="hard-high-score">0</td>
+                </tr>
+                <tr>
+                    <td>Pro</td>
+                    <td id="pro-high-score">0</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <div id="game-container">
+            <div id="countdown"></div>
+            <div id="level-select-menu">
+                <div id="levels-container">
+                    <button id="selected">Easy</button>
+                    <button>Medium</button>
+                    <button>Hard</button>
+                    <button>Pro</button>
+
+                </div>
+                <button id="start-game-button">START</button>
+            </div>
+
+            <div id="game"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
